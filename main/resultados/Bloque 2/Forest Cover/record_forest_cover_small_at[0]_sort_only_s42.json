@@ -1,0 +1,28 @@
+{
+  "dataset": "forest_cover_small",
+  "experiment_block": "bloque2",
+  "experiment_note": "Forest Cover Small - sort_only - [0] - seed 42",
+  "apply_sortstats_at": [
+    0
+  ],
+  "branches": "sort_only",
+  "seed": 42,
+  "steepness": 5.0,
+  "hidden_dims": [
+    32,
+    16,
+    8
+  ],
+  "batch_size": 512,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "n_params": 4327,
+  "best_epoch": 208,
+  "best_val_f1": 0.777917,
+  "final_val_acc": 0.784722,
+  "final_val_f1": 0.777917,
+  "final_val_recall": 0.784722,
+  "total_time_min": 2.42,
+  "mean_epoch_time_s": 0.61,
+  "epochs_trained": 238
+}

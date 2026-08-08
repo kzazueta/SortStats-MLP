@@ -1,0 +1,43 @@
+{
+  "dataset": "diabetes",
+  "experiment_block": "bloque1",
+  "experiment_note": "Diabetes SortStats capa 0, 1 y 2, Semilla 42",
+  "apply_sortstats_at": [
+    0,
+    1,
+    2
+  ],
+  "seed": 42,
+  "steepness": 5.0,
+  "hidden_dims": [
+    32,
+    16,
+    8
+  ],
+  "batch_size": 2048,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "n_params": 3025,
+  "best_epoch": 10,
+  "best_val_f1": 0.750735,
+  "final_val_acc": 0.751255,
+  "final_val_f1": 0.750735,
+  "final_val_recall": 0.751259,
+  "total_time_min": 1.32,
+  "mean_epoch_time_s": 1.98,
+  "epochs_trained": 40,
+  "baselines": {
+    "random_forest": {
+      "accuracy": 0.7360492255463611,
+      "f1_macro": 0.735704006307031,
+      "recall": 0.7360517853616293,
+      "time_s": 0.9801933765411377
+    },
+    "xgboost": {
+      "accuracy": 0.7521041092014994,
+      "f1_macro": 0.7516109624977936,
+      "recall": 0.7521072643610177,
+      "time_s": 0.3422822952270508
+    }
+  }
+}

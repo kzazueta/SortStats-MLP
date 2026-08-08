@@ -1,0 +1,28 @@
+{
+  "dataset": "miniboone",
+  "experiment_block": "bloque2",
+  "experiment_note": "Miniboone - sort_only - [0] - seed 62",
+  "apply_sortstats_at": [
+    0
+  ],
+  "branches": "sort_only",
+  "seed": 62,
+  "steepness": 5.0,
+  "hidden_dims": [
+    32,
+    16,
+    8
+  ],
+  "batch_size": 1024,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "n_params": 4017,
+  "best_epoch": 66,
+  "best_val_f1": 0.918998,
+  "final_val_acc": 0.933456,
+  "final_val_f1": 0.918998,
+  "final_val_recall": 0.926429,
+  "total_time_min": 7.6,
+  "mean_epoch_time_s": 4.75,
+  "epochs_trained": 96
+}

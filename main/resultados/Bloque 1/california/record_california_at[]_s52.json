@@ -1,0 +1,39 @@
+{
+  "dataset": "california",
+  "experiment_block": "bloque1",
+  "experiment_note": "California Housing Base, Semilla 52",
+  "apply_sortstats_at": [],
+  "seed": 52,
+  "steepness": 5.0,
+  "hidden_dims": [
+    32,
+    16,
+    8
+  ],
+  "batch_size": 512,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "n_params": 1073,
+  "best_epoch": 33,
+  "best_val_f1": 0.872319,
+  "final_val_acc": 0.872335,
+  "final_val_f1": 0.872319,
+  "final_val_recall": 0.87233,
+  "total_time_min": 0.2,
+  "mean_epoch_time_s": 0.19,
+  "epochs_trained": 63,
+  "baselines": {
+    "random_forest": {
+      "accuracy": 0.8948643410852714,
+      "f1_macro": 0.8948544684878921,
+      "recall": 0.8948692458736249,
+      "time_s": 0.5160143375396729
+    },
+    "xgboost": {
+      "accuracy": 0.9074612403100775,
+      "f1_macro": 0.9074549621614312,
+      "recall": 0.9074654438457359,
+      "time_s": 0.23264861106872559
+    }
+  }
+}

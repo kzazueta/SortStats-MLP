@@ -1,0 +1,6 @@
+**/__pycache__/
+*.wav
+venv/
+*.sql
+*.png
+*.log

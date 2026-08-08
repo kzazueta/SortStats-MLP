@@ -1,0 +1,42 @@
+{
+  "dataset": "adult",
+  "experiment_block": "bloque1",
+  "experiment_note": "Adult SortStats capa 0 y 1, Semilla 52",
+  "apply_sortstats_at": [
+    0,
+    1
+  ],
+  "seed": 52,
+  "steepness": 5.0,
+  "hidden_dims": [
+    32,
+    16,
+    8
+  ],
+  "batch_size": 1024,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "n_params": 7729,
+  "best_epoch": 1,
+  "best_val_f1": 0.768515,
+  "final_val_acc": 0.815539,
+  "final_val_f1": 0.768515,
+  "final_val_recall": 0.797257,
+  "total_time_min": 3.57,
+  "mean_epoch_time_s": 6.9,
+  "epochs_trained": 31,
+  "baselines": {
+    "random_forest": {
+      "accuracy": 0.8575084450813799,
+      "f1_macro": 0.7932221179293966,
+      "recall": 0.7783806917568059,
+      "time_s": 0.9950306415557861
+    },
+    "xgboost": {
+      "accuracy": 0.8754222540689938,
+      "f1_macro": 0.8189477491389114,
+      "recall": 0.8023211895604374,
+      "time_s": 0.5226969718933105
+    }
+  }
+}

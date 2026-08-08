@@ -1,0 +1,30 @@
+{
+  "dataset": "santander",
+  "experiment_block": "bloque3",
+  "experiment_note": "Santander - lr=1e-2 - seed 42",
+  "apply_sortstats_at": [
+    0,
+    1,
+    2
+  ],
+  "branches": "both",
+  "seed": 42,
+  "steepness": 5.0,
+  "hidden_dims": [
+    32,
+    16,
+    8
+  ],
+  "batch_size": 2048,
+  "lr": 0.01,
+  "weight_decay": 0.01,
+  "n_params": 14481,
+  "best_epoch": 18,
+  "best_val_f1": 0.715369,
+  "final_val_acc": 0.8788,
+  "final_val_f1": 0.715369,
+  "final_val_recall": 0.755969,
+  "total_time_min": 108.45,
+  "mean_epoch_time_s": 135.56,
+  "epochs_trained": 48
+}

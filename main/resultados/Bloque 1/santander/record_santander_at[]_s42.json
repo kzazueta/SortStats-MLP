@@ -1,0 +1,39 @@
+{
+  "dataset": "santander",
+  "experiment_block": "bloque1",
+  "experiment_note": "Santander Base, Semilla 42",
+  "apply_sortstats_at": [],
+  "seed": 42,
+  "steepness": 5.0,
+  "hidden_dims": [
+    32,
+    16,
+    8
+  ],
+  "batch_size": 2048,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "n_params": 7217,
+  "best_epoch": 36,
+  "best_val_f1": 0.629883,
+  "final_val_acc": 0.768225,
+  "final_val_f1": 0.629883,
+  "final_val_recall": 0.773609,
+  "total_time_min": 1.73,
+  "mean_epoch_time_s": 1.57,
+  "epochs_trained": 66,
+  "baselines": {
+    "random_forest": {
+      "accuracy": 0.8995,
+      "f1_macro": 0.473545669913135,
+      "recall": 0.5,
+      "time_s": 130.62862181663513
+    },
+    "xgboost": {
+      "accuracy": 0.9161,
+      "f1_macro": 0.6506191765264725,
+      "recall": 0.6073349207271038,
+      "time_s": 9.666409015655518
+    }
+  }
+}

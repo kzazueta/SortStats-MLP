@@ -1,0 +1,42 @@
+{
+  "dataset": "miniboone",
+  "experiment_block": "bloque1",
+  "experiment_note": "Miniboone SortStats capa 1 y 2, Semilla 62",
+  "apply_sortstats_at": [
+    1,
+    2
+  ],
+  "seed": 62,
+  "steepness": 5.0,
+  "hidden_dims": [
+    32,
+    16,
+    8
+  ],
+  "batch_size": 1024,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "n_params": 3153,
+  "best_epoch": 87,
+  "best_val_f1": 0.907772,
+  "final_val_acc": 0.925037,
+  "final_val_f1": 0.907772,
+  "final_val_recall": 0.910468,
+  "total_time_min": 8.73,
+  "mean_epoch_time_s": 4.48,
+  "epochs_trained": 117,
+  "baselines": {
+    "random_forest": {
+      "accuracy": 0.9385307346326837,
+      "f1_macro": 0.9235147403627129,
+      "recall": 0.921517354062702,
+      "time_s": 15.38479733467102
+    },
+    "xgboost": {
+      "accuracy": 0.9479106600545881,
+      "f1_macro": 0.9357792096741937,
+      "recall": 0.9377283977368308,
+      "time_s": 1.715681791305542
+    }
+  }
+}

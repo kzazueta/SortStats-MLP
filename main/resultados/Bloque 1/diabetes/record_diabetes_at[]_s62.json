@@ -1,0 +1,39 @@
+{
+  "dataset": "diabetes",
+  "experiment_block": "bloque1",
+  "experiment_note": "Diabetes Base, Semilla 62",
+  "apply_sortstats_at": [],
+  "seed": 62,
+  "steepness": 5.0,
+  "hidden_dims": [
+    32,
+    16,
+    8
+  ],
+  "batch_size": 2048,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "n_params": 1489,
+  "best_epoch": 50,
+  "best_val_f1": 0.754474,
+  "final_val_acc": 0.755004,
+  "final_val_f1": 0.754474,
+  "final_val_recall": 0.755007,
+  "total_time_min": 0.67,
+  "mean_epoch_time_s": 0.5,
+  "epochs_trained": 80,
+  "baselines": {
+    "random_forest": {
+      "accuracy": 0.738949006294646,
+      "f1_macro": 0.7386195155621011,
+      "recall": 0.7389515211044577,
+      "time_s": 0.9740486145019531
+    },
+    "xgboost": {
+      "accuracy": 0.752528467359785,
+      "f1_macro": 0.7521170769278986,
+      "recall": 0.7525313524016548,
+      "time_s": 0.38686275482177734
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "dataset": "california",
+  "experiment_block": "bloque1",
+  "experiment_note": "California Housing SortStats capa 0 y 1, Semilla 62",
+  "apply_sortstats_at": [
+    0,
+    1
+  ],
+  "seed": 62,
+  "steepness": 5.0,
+  "hidden_dims": [
+    32,
+    16,
+    8
+  ],
+  "batch_size": 512,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "n_params": 2033,
+  "best_epoch": 97,
+  "best_val_f1": 0.866762,
+  "final_val_acc": 0.866764,
+  "final_val_f1": 0.866762,
+  "final_val_recall": 0.866762,
+  "total_time_min": 2.19,
+  "mean_epoch_time_s": 1.03,
+  "epochs_trained": 127,
+  "baselines": {
+    "random_forest": {
+      "accuracy": 0.9079457364341085,
+      "f1_macro": 0.907943986112725,
+      "recall": 0.9079480621911014,
+      "time_s": 0.5263779163360596
+    },
+    "xgboost": {
+      "accuracy": 0.9166666666666666,
+      "f1_macro": 0.9166666666666666,
+      "recall": 0.9166668818418369,
+      "time_s": 0.22800493240356445
+    }
+  }
+}

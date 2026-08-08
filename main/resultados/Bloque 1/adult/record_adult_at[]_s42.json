@@ -1,0 +1,39 @@
+{
+  "dataset": "adult",
+  "experiment_block": "bloque1",
+  "experiment_note": "Adult Base, Semilla 42",
+  "apply_sortstats_at": [],
+  "seed": 42,
+  "steepness": 5.0,
+  "hidden_dims": [
+    32,
+    16,
+    8
+  ],
+  "batch_size": 1024,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "n_params": 3921,
+  "best_epoch": 79,
+  "best_val_f1": 0.769319,
+  "final_val_acc": 0.804279,
+  "final_val_f1": 0.769319,
+  "final_val_recall": 0.825766,
+  "total_time_min": 0.69,
+  "mean_epoch_time_s": 0.38,
+  "epochs_trained": 109,
+  "baselines": {
+    "random_forest": {
+      "accuracy": 0.8567918927218753,
+      "f1_macro": 0.792078929256685,
+      "recall": 0.7771768303752378,
+      "time_s": 1.081843614578247
+    },
+    "xgboost": {
+      "accuracy": 0.8760364418057119,
+      "f1_macro": 0.8183239406717029,
+      "recall": 0.7995003130597909,
+      "time_s": 0.4484093189239502
+    }
+  }
+}

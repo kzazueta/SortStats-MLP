@@ -1,0 +1,15 @@
+dataset,model,f1_mean,f1_std,acc_mean,rec_mean,n
+adult,random_forest,0.7906,0.003,0.8554,0.7764,21
+adult,xgboost,0.8173,0.0019,0.8747,0.7999,21
+california,random_forest,0.8988,0.0066,0.8988,0.8988,21
+california,xgboost,0.9121,0.0039,0.9121,0.9121,21
+diabetes,random_forest,0.7375,0.0013,0.7379,0.7379,21
+diabetes,xgboost,0.7512,0.001,0.7517,0.7517,21
+electricity,random_forest,0.905,0.0027,0.9076,0.9034,21
+electricity,xgboost,0.9027,0.0013,0.905,0.9023,21
+forest_cover_small,random_forest,0.8593,0.0081,0.8614,0.8614,21
+forest_cover_small,xgboost,0.8558,0.0096,0.8581,0.8581,21
+miniboone,random_forest,0.9224,0.0015,0.9377,0.9202,21
+miniboone,xgboost,0.934,0.0016,0.9466,0.9356,21
+santander,random_forest,0.4735,0.0,0.8995,0.5,21
+santander,xgboost,0.6565,0.0062,0.917,0.6117,21

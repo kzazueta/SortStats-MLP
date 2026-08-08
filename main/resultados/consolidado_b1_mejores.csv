@@ -1,0 +1,8 @@
+dataset,apply_sortstats_at,branches,f1_mean,f1_std,time_mean
+adult,"[0, 1, 2]",both,0.7957,0.0053,8.0667
+california,[],both,0.8639,0.0073,0.2167
+diabetes,[],both,0.753,0.0013,0.61
+electricity,[0],both,0.7963,0.0028,0.8667
+forest_cover_small,[],both,0.7667,0.0216,0.37
+miniboone,[0],both,0.9176,0.0009,9.47
+santander,"[0, 1, 2]",both,0.7184,0.0084,121.5767

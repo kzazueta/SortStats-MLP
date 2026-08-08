@@ -1,0 +1,15 @@
+dataset,apply_sortstats_at,branches,f1_mean,f1_std,acc_mean,rec_mean,n_seeds
+adult,"[0, 1, 2]",sort_only,0.788,0.0079,0.8314,0.8179,3
+adult,"[0, 1, 2]",stats_only,0.7799,0.016,0.8187,0.8232,3
+california,[1],sort_only,0.865,0.0074,0.8651,0.8651,3
+california,[1],stats_only,0.8678,0.0048,0.8678,0.8678,3
+diabetes,[0],sort_only,0.7538,0.0018,0.7544,0.7544,3
+diabetes,[0],stats_only,0.7527,0.0012,0.7531,0.7531,3
+electricity,[0],sort_only,0.794,0.0028,0.8022,0.7902,3
+electricity,[0],stats_only,0.7936,0.0039,0.8016,0.7899,3
+forest_cover_small,[0],sort_only,0.7771,0.0097,0.7832,0.7832,3
+forest_cover_small,[0],stats_only,0.7666,0.0084,0.7728,0.7728,3
+miniboone,[0],sort_only,0.9166,0.0021,0.931,0.9272,3
+miniboone,[0],stats_only,0.915,0.0039,0.9298,0.9244,3
+santander,"[0, 1, 2]",sort_only,0.7225,0.0038,0.8845,0.7577,3
+santander,"[0, 1, 2]",stats_only,0.6989,0.0085,0.8581,0.7659,3

@@ -1,0 +1,30 @@
+{
+  "dataset": "adult",
+  "experiment_block": "bloque3",
+  "experiment_note": "Adult - batch=512 - seed 62",
+  "apply_sortstats_at": [
+    0,
+    1,
+    2
+  ],
+  "branches": "both",
+  "seed": 62,
+  "steepness": 5.0,
+  "hidden_dims": [
+    32,
+    16,
+    8
+  ],
+  "batch_size": 512,
+  "lr": 0.001,
+  "weight_decay": 0.01,
+  "n_params": 7889,
+  "best_epoch": 70,
+  "best_val_f1": 0.78446,
+  "final_val_acc": 0.828744,
+  "final_val_f1": 0.78446,
+  "final_val_recall": 0.813559,
+  "total_time_min": 13.55,
+  "mean_epoch_time_s": 8.13,
+  "epochs_trained": 100
+}

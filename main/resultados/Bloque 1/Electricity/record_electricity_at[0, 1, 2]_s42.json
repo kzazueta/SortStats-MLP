@@ -1,0 +1,43 @@
+{
+  "dataset": "electricity",
+  "experiment_block": "bloque1",
+  "experiment_note": "Electricity SortStats capa 0,1,2, Semilla 42",
+  "apply_sortstats_at": [
+    0,
+    1,
+    2
+  ],
+  "seed": 42,
+  "steepness": 5.0,
+  "hidden_dims": [
+    32,
+    16,
+    8
+  ],
+  "batch_size": 1024,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "n_params": 2193,
+  "best_epoch": 26,
+  "best_val_f1": 0.78184,
+  "final_val_acc": 0.793777,
+  "final_val_f1": 0.78184,
+  "final_val_recall": 0.776152,
+  "total_time_min": 1.63,
+  "mean_epoch_time_s": 1.75,
+  "epochs_trained": 56,
+  "baselines": {
+    "random_forest": {
+      "accuracy": 0.910404943175549,
+      "f1_macro": 0.907946812372887,
+      "recall": 0.9063777076360968,
+      "time_s": 0.8568203449249268
+    },
+    "xgboost": {
+      "accuracy": 0.9040052962595168,
+      "f1_macro": 0.9017436639398309,
+      "recall": 0.901634274033603,
+      "time_s": 0.34154200553894043
+    }
+  }
+}

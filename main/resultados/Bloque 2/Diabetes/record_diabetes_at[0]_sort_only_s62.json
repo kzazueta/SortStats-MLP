@@ -1,0 +1,28 @@
+{
+  "dataset": "diabetes",
+  "experiment_block": "bloque2",
+  "experiment_note": "Diabetes - sort_only - [0] - seed 62",
+  "apply_sortstats_at": [
+    0
+  ],
+  "branches": "sort_only",
+  "seed": 62,
+  "steepness": 5.0,
+  "hidden_dims": [
+    32,
+    16,
+    8
+  ],
+  "batch_size": 2048,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "n_params": 2161,
+  "best_epoch": 20,
+  "best_val_f1": 0.753743,
+  "final_val_acc": 0.754367,
+  "final_val_f1": 0.753743,
+  "final_val_recall": 0.754371,
+  "total_time_min": 0.87,
+  "mean_epoch_time_s": 1.05,
+  "epochs_trained": 50
+}

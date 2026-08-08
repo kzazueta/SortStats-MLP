@@ -1,0 +1,39 @@
+{
+  "dataset": "forest_cover_small",
+  "experiment_block": "bloque1",
+  "experiment_note": "Forest Cover Small Base, Semilla 52",
+  "apply_sortstats_at": [],
+  "seed": 52,
+  "steepness": 5.0,
+  "hidden_dims": [
+    32,
+    16,
+    8
+  ],
+  "batch_size": 512,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "n_params": 2599,
+  "best_epoch": 127,
+  "best_val_f1": 0.742214,
+  "final_val_acc": 0.750992,
+  "final_val_f1": 0.742214,
+  "final_val_recall": 0.750992,
+  "total_time_min": 0.35,
+  "mean_epoch_time_s": 0.13,
+  "epochs_trained": 157,
+  "baselines": {
+    "random_forest": {
+      "accuracy": 0.8541666666666666,
+      "f1_macro": 0.8519052568895509,
+      "recall": 0.8541666666666667,
+      "time_s": 0.4492006301879883
+    },
+    "xgboost": {
+      "accuracy": 0.8564814814814815,
+      "f1_macro": 0.854323443512104,
+      "recall": 0.8564814814814815,
+      "time_s": 1.7370243072509766
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "dataset": "santander",
+  "experiment_block": "bloque1",
+  "experiment_note": "Santander SortStats capas 0, 1 y 2, Semilla 52",
+  "apply_sortstats_at": [
+    0,
+    1,
+    2
+  ],
+  "seed": 52,
+  "steepness": 5.0,
+  "hidden_dims": [
+    32,
+    16,
+    8
+  ],
+  "batch_size": 2048,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "n_params": 14481,
+  "best_epoch": 11,
+  "best_val_f1": 0.725948,
+  "final_val_acc": 0.88875,
+  "final_val_f1": 0.725948,
+  "final_val_recall": 0.754761,
+  "total_time_min": 95.35,
+  "mean_epoch_time_s": 139.53,
+  "epochs_trained": 41,
+  "baselines": {
+    "random_forest": {
+      "accuracy": 0.8995,
+      "f1_macro": 0.473545669913135,
+      "recall": 0.5,
+      "time_s": 118.0543942451477
+    },
+    "xgboost": {
+      "accuracy": 0.91635,
+      "f1_macro": 0.6521652350275637,
+      "recall": 0.6084682203214058,
+      "time_s": 7.824287414550781
+    }
+  }
+}

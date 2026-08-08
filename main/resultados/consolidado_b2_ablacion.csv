@@ -1,0 +1,8 @@
+dataset,sort_only,stats_only,both
+adult,0.788,0.7799,0.7957
+california,0.865,0.8678,0.8639
+diabetes,0.7538,0.7527,0.753
+electricity,0.794,0.7936,0.7963
+forest_cover_small,0.7771,0.7666,0.7667
+miniboone,0.9166,0.915,0.9176
+santander,0.7225,0.6989,0.7184
