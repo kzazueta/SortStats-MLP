@@ -16,8 +16,7 @@ class SortStatsLayer(nn.Module):
     El parametro 'branches' controla que ramas se activan. 
 
     Nota sobre la red de ordenamiento:
-        Se usa 'bitonic' en lugar de 'odd_even' porque con vectores de alta dimension, 'odd_even' ya que 
-        esta agota memoria en el backward.
+        Se usa 'bitonic' en lugar de 'odd_even' porque con vectores de alta dimension agota memoria en el backward.
 
         La red bitonica requiere que input_dim sea potencia de 2, por lo que
         se aplica padding con un valor muy negativo hasta la siguiente
